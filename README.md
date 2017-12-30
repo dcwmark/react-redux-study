@@ -1,6 +1,6 @@
 # react-redux-study
 
-From: https://www.youtube.com/watch?v=5oiXG9f6GO0
+From: https://github.com/Remchi/reddice
 
 1. mkdir react-redux-study
 1. cd react-redux-study
@@ -30,7 +30,14 @@ From: https://www.youtube.com/watch?v=5oiXG9f6GO0
 1. mkdir [root/client]/components
 1. cd components
 1. touch [root/client]/App.js
-1. cd [root]
-1. npm install --save react react-dom
+1. [root] npm install --save react react-dom
 1. [root/server/index.html] add ```<script src="bundle.js"></script>```
+1. [root/server/indexjs] implement webpack / webpackMiddleware / webpackConfig
+1. [root]/webpack.config.js
+1. [root] npm install --save-dev webpack webpack-dev-middleware
+1. [root] npm install --save-dev babel-loader
+1. [root]/.babelrc > add 'react' to "presets"
+1. [root] npm install --save-dev babel-preset-react
+
+
 
