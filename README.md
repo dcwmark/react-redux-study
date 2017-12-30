@@ -18,8 +18,8 @@ From: https://www.youtube.com/watch?v=5oiXG9f6GO0
 1. browser > localhost:3000
 1. npm install --save-dev nodemon
 1. [root]package.json > "script":
-1.* change "server": > "nodemon --watch server --exec babel-node -- server/index.js"
-1.* server will now serving with nodemon instead of babal-node directly.
-1.* nodemon will watch folder server for any file changes.
-1.* nodemon will serve babel-node
-1.* adding "--" before server/index.js as param to nodemon instead to babel-node.
+  * change "server": > "nodemon --watch server --exec babel-node -- server/index.js"
+  * server will now serving with nodemon instead of babal-node directly.
+  * nodemon will watch folder server for any file changes.
+  * nodemon will serve babel-node
+  * adding "--" before server/index.js as param to nodemon instead to babel-node.
