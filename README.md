@@ -32,5 +32,5 @@ From: https://www.youtube.com/watch?v=5oiXG9f6GO0
 1. touch [root/client]/App.js
 1. cd [root]
 1. npm install --save react react-dom
-1. [root/server/index.html] add ```html <script src="bundle.js"></script>```
+1. [root/server/index.html] add ```<script src="bundle.js"></script>```
 
