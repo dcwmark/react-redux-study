@@ -6,9 +6,7 @@ From: https://github.com/Remchi/reddice
 1. cd react-redux-study
 1. npm init -y
 1. git init
-1. ======
-1. Server
-1. ======
+1. __Server__
 1. [root] npm install --save express
 1. [root] npm install --save-dev babel-cli
 1. [root]/.babelrc > "presets": [ "es2015" ]
@@ -27,9 +25,7 @@ From: https://github.com/Remchi/reddice
   * nodemon will watch folder server for any file changes.
   * nodemon will serve babel-node
   * adding "--" before server/index.js as param to nodemon instead to babel-node.
-1. ======
-1. Client
-1. ======
+1. __Client__
 1. [root] mkdir client
 1. touch [root/client]/index.js
 1. mkdir [root/client]/components
@@ -44,9 +40,7 @@ From: https://github.com/Remchi/reddice
 1. [root] npm install --save-dev babel-preset-react
 1. [root/server/index.js] add webpackHotMiddleware
 1. [root] npm install --save-dev react-hot-loader webpack-hot-middleware
-1. =======================
-1. Test webpack hot reload
-1. =======================
+1. __Test webpack hot reload__
 
 
 
