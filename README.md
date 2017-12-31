@@ -5,11 +5,14 @@ From: https://github.com/Remchi/reddice
 1. mkdir react-redux-study
 1. cd react-redux-study
 1. npm init -y
-1. git 
-1. npm install --save express
-1. npm install --save-dev babel-cli
+1. git init
+1. ======
+1. Server
+1. ======
+1. [root] npm install --save express
+1. [root] npm install --save-dev babel-cli
 1. [root]/.babelrc > "presets": [ "es2015" ]
-1. npm install --save-dev babel-preset-es2015
+1. [root] npm install --save-dev babel-preset-es2015
 1. [root] mkdir server
 1. cd server
 1. touch [root/server]/index.js
@@ -18,18 +21,19 @@ From: https://github.com/Remchi/reddice
 1. > npm run server
 1. browser > localhost:3000
 1. npm install --save-dev nodemon
-1. [root]package.json > "script":
+1. [root]/package.json > "script":
   * change "server": > "nodemon --watch server --exec babel-node -- server/index.js"
   * server will now serving with nodemon instead of babal-node directly.
   * nodemon will watch folder server for any file changes.
   * nodemon will serve babel-node
   * adding "--" before server/index.js as param to nodemon instead to babel-node.
+1. ======
+1. Client
+1. ======
 1. [root] mkdir client
-1. cd client
 1. touch [root/client]/index.js
 1. mkdir [root/client]/components
-1. cd components
-1. touch [root/client]/App.js
+1. touch [root/client/components]/App.js
 1. [root] npm install --save react react-dom
 1. [root/server/index.html] add ```<script src="bundle.js"></script>```
 1. [root/server/indexjs] implement webpack / webpackMiddleware / webpackConfig
@@ -38,6 +42,13 @@ From: https://github.com/Remchi/reddice
 1. [root] npm install --save-dev babel-loader
 1. [root]/.babelrc > add 'react' to "presets"
 1. [root] npm install --save-dev babel-preset-react
+1. [root/server/index.js] add webpackHotMiddleware
+1. [root] npm install --save-dev react-hot-loader webpack-hot-middleware
+1. =======================
+1. Test webpack hot reload
+1. =======================
+
+
 
 
 
