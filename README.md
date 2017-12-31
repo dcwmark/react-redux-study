@@ -22,11 +22,11 @@ From: https://github.com/Remchi/reddice
 1. browser > localhost:3000
 1. npm install --save-dev nodemon
 1. [root]/package.json > "script":
-  * change "server": > "nodemon --watch server --exec babel-node -- server/index.js"
-  * server will now serving with nodemon instead of babal-node directly.
-  * nodemon will watch folder server for any file changes.
-  * nodemon will serve babel-node
-  * adding "--" before server/index.js as param to nodemon instead to babel-node.
+..* change "server": > "nodemon --watch server --exec babel-node -- server/index.js"
+..* server will now serving with nodemon instead of babal-node directly.
+..* nodemon will watch folder server for any file changes.
+..* nodemon will serve babel-node
+..* adding "--" before server/index.js as param to nodemon instead to babel-node.
 1. ======
 1. Client
 1. ======
