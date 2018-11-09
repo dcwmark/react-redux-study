@@ -1,9 +1,10 @@
 import React from 'react';
+import FunctionalComponent from './FunctionalComponent';
 
 class App extends React.Component {
     render() {
         return (
-            <h1>Client App.js</h1>
+            <FunctionalComponent />
         );
     }
 }

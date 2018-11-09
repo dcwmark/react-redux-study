@@ -11,7 +11,7 @@ module.exports = {
         './client/index.js'
     ],
     output: {
-        path: '/',   // any path wiil do; as webpack will server from memory.
+        path: '/',   // any path wiil do; as webpack will serve from memory.
         publicPath: '/',
         filename: 'bundle.js'
     },
